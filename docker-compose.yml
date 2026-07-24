@@ -64,7 +64,7 @@ services:
     build:
       context: ./frontend
     ports:
-      - "4000:3000"
+      - "80:3000"
     environment:
       - NEXT_PUBLIC_API_URL=https://api.codelens.site
     depends_on:
