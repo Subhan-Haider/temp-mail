@@ -26,7 +26,7 @@ services:
       - DATABASE_URL=postgresql://myuser:mypassword@db:5432/synthetic_data
       - CELERY_BROKER_URL=redis://redis:6379/0
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
-      - DOMAINS=tmp.subhan.tech,tmp.codelens.site
+      - DOMAINS=tmp.subhan.tech,tmp.codelens.site,tmp.codiner.online
     depends_on:
       - db
       - redis
@@ -41,7 +41,7 @@ services:
       - DATABASE_URL=postgresql://myuser:mypassword@db:5432/synthetic_data
       - CELERY_BROKER_URL=redis://redis:6379/0
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
-      - DOMAINS=tmp.subhan.tech,tmp.codelens.site
+      - DOMAINS=tmp.subhan.tech,tmp.codelens.site,tmp.codiner.online
     depends_on:
       - db
       - redis
