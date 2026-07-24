@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { X, Loader2, AlertCircle } from 'lucide-react';
 import axios from 'axios';
 
-export default function DataPreviewModal({ jobId, isOpen, onClose }: { jobId: str | null, isOpen: boolean, onClose: () => void }) {
+export default function DataPreviewModal({ jobId, isOpen, onClose }: { jobId: string | null, isOpen: boolean, onClose: () => void }) {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
