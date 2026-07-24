@@ -16,7 +16,7 @@ from sqlalchemy.orm import Session
 from database import engine, Base, get_db
 from models import Job, Inbox, Message
 from schemas import (
-    GenerateRequest, JobResponse, BulkDeleteRequest, 
+    GenerateRequest, JobResponse,
     InboxResponse, InboxDetail, MessageDetail, CustomInboxRequest,
     CreateInboxRequest
 )
