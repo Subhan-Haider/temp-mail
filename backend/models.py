@@ -1,7 +1,8 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
+from sqlalchemy.orm import relationship
 from datetime import datetime
 from database import Base
-
+import uuid
 class Job(Base):
     __tablename__ = "jobs"
 
